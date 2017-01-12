@@ -6,6 +6,6 @@
 
         public string Title { get; set; }
 
-        public Artest Artist { get; set; }
+        public virtual Artist Artist { get; set; }
     }
 }
